@@ -41,7 +41,7 @@ class WebviewScaffold extends StatefulWidget {
     this.geolocationEnabled,
     this.debuggingEnabled = false,
     this.ignoreSSLErrors = false,
-    this.onUrlChange,
+    this.onUrlChanged,
     this.onStateChanged,
   }) : super(key: key);
 
